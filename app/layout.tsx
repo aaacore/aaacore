@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   description:
     "AAA Core IT Solutions - Building digital excellence through cutting-edge IT solutions, innovative web & app development, and strategic digital marketing. Based in Kannur, Kerala.",
   keywords: [
+    "AAA Core",
+    "AAACORE",
+    "aaacore",
+    "AAA Core IT Solutions",
+    "IT company in India",
+    "Web development company",
     "IT Solutions",
     "Web Development",
     "Mobile App Development",
@@ -20,6 +26,7 @@ export const metadata: Metadata = {
     "Kerala",
     "Kannur",
   ],
+  metadataBase: new URL("https://aaacore.in"),
   generator: "v0.app",
   icons: {
     icon: [
