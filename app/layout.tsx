@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" })
 
 export const metadata: Metadata = {
-  title: "AAA Zone IT Solutions | Authentication, Authorization & Accounting",
+  title: "AAA Core IT Solutions | Authentication, Authorization & Accounting",
   description:
-    "AAA Zone IT Solutions - Building digital excellence through cutting-edge IT solutions, innovative web & app development, and strategic digital marketing. Based in Kannur, Kerala.",
+    "AAA Core IT Solutions - Building digital excellence through cutting-edge IT solutions, innovative web & app development, and strategic digital marketing. Based in Kannur, Kerala.",
   keywords: [
     "IT Solutions",
     "Web Development",

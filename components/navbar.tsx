@@ -91,7 +91,7 @@ export function Navbar() {
               </span>
             </div>
             <div className="hidden sm:block">
-              <span className="font-bold text-foreground text-lg tracking-tight">AAA Zone</span>
+              <span className="font-bold text-foreground text-lg tracking-tight">AAA Core</span>
               <span className="text-muted-foreground text-sm block -mt-1">IT Solutions</span>
             </div>
           </button>

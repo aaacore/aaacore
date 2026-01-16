@@ -24,7 +24,7 @@ export function Footer() {
               <span className="text-primary-foreground font-bold text-lg">A³</span>
             </div>
             <div>
-              <span className="font-bold text-foreground text-lg tracking-tight">AAA Zone IT Solutions</span>
+              <span className="font-bold text-foreground text-lg tracking-tight">AAA Core IT Solutions</span>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ export function Footer() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-8 pt-8 border-t border-border text-center"
         >
-          <p className="text-muted-foreground text-sm">© {currentYear} AAA Zone IT Solutions. All rights reserved.</p>
+          <p className="text-muted-foreground text-sm">© {currentYear} AAA Core IT Solutions. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

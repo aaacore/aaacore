@@ -54,7 +54,7 @@ export function AboutSection() {
             <span className="text-gradient bg-gradient-to-r from-primary to-accent">AAA Principles</span>
           </h2>
           <p className="text-lg text-muted-foreground text-pretty">
-            AAA Zone IT Solutions is a leading technology partner based in Kannur, Kerala, specializing in comprehensive
+            AAA Core IT Solutions is a leading technology partner based in Kannur, Kerala, specializing in comprehensive
             IT solutions that empower businesses to thrive in the digital age. Our name embodies our core principles:
             Authentication, Authorization, and Accounting.
           </p>
@@ -133,7 +133,7 @@ export function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-2xl font-bold text-foreground text-center mb-10">Why Choose AAA Zone?</h3>
+          <h3 className="text-2xl font-bold text-foreground text-center mb-10">Why Choose AAA Core?</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {whyChooseUs.map((item, index) => (
               <motion.div
