@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -20,9 +21,16 @@ export function Footer() {
         >
           {/* Logo & Company */}
           <div className="flex items-center gap-3 group">
-            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl group-hover:glow-primary transition-all duration-300">
-              <span className="text-primary-foreground font-bold text-lg">A³</span>
-            </div>
+            {/* <div className="flex items-center justify-center w-100 h-50 bg-gradient-to-br from-primary to-accent rounded-xl group-hover:glow-primary transition-all duration-300"> */}
+              {/* <span className="text-primary-foreground font-bold text-lg">A³</span> */}
+              <Image
+                src="/logo_white_bag.jpeg"   // or .png – must be inside /public
+                alt="AAA Core IT Solutions Logo"
+                width={100}
+                height={60}
+                className="object-contain rounded-lg"
+              />
+            {/* </div> */}
             <div>
               <span className="font-bold text-foreground text-lg tracking-tight">AAA Core IT Solutions</span>
             </div>

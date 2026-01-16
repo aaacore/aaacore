@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -85,11 +86,18 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <button onClick={() => scrollToSection("#home")} className="flex items-center gap-3 group">
-            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl group-hover:glow-primary transition-all duration-300">
-              <span className="text-primary-foreground font-bold text-xl leading-none">
+            {/* <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl group-hover:glow-primary transition-all duration-300"> */}
+              {/* <span className="text-primary-foreground font-bold text-xl leading-none">
                 A<sup className="text-[0.6em] font-bold">3</sup>
-              </span>
-            </div>
+              </span> */}
+              <Image
+                src="/logo_white_bag.jpeg"   // or .png – must be inside /public
+                alt="AAA Core IT Solutions Logo"
+                width={50}
+                height={60}
+                className="object-contain rounded-lg"
+              />
+            {/* </div> */}
             <div className="hidden sm:block">
               <span className="font-bold text-foreground text-lg tracking-tight">AAA Core</span>
               <span className="text-muted-foreground text-sm block -mt-1">IT Solutions</span>

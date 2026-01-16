@@ -9,7 +9,7 @@ const contactDetails = [
   { icon: Phone, label: "Phone", value: "+91 7510740578", href: "tel:+917510740578" },
   { icon: MessageCircle, label: "WhatsApp", value: "+91 9188711791", href: "https://wa.me/919188711791" },
   { icon: Globe, label: "Website", value: "aaacore.in", href: "https://aaacore.in" },
-  { icon: Mail, label: "Email", value: "info@aaacore.in", href: "mailto:info@aaacore.in" },
+  { icon: Mail, label: "Email", value: "aaacore.in@gmail.com", href: "mailto:aaacore.in@gmail.com" },
   { icon: MapPin, label: "Location", value: "Kannur, Kerala, India", href: "#" },
 ]
 
