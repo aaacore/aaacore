@@ -129,7 +129,7 @@ export function Navbar() {
           <div className="hidden lg:block">
             <Button
               onClick={() => scrollToSection("#contact")}
-              className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-primary-foreground font-semibold px-6 rounded-xl glow-primary transition-all duration-300 hover:scale-105"
+              className="bg-linear-to-r from-primary to-accent hover:opacity-90 text-primary-foreground font-semibold px-6 rounded-xl glow-primary transition-all duration-300 hover:scale-105"
             >
               Get Started
             </Button>

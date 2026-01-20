@@ -73,7 +73,7 @@ export function ContactSection() {
               <p className="text-sm text-muted-foreground mb-4">Follow us on social media</p>
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/aaa-core-it-solutions-b979b03a5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass rounded-xl hover:border-primary/50 hover:bg-primary/10 hover:glow-primary transition-all duration-300"
