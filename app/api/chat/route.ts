@@ -22,7 +22,7 @@ import { NextResponse } from "next/server"
 import OpenAI from "openai"
 
 const client = new OpenAI({
-  apiKey: process.env.OPEN_AI_API_KEY!,
+  apiKey: process.env.OPENAI_API_KEY!,
 })
 
 const SYSTEM_PROMPT = `
