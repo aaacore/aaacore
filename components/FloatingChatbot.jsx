@@ -70,7 +70,11 @@ export default function FloatingChatbot() {
     <>
       {/* Chat Window */}
       {open && (
-        <div className="fixed bottom-24 right-6 z-50 w-100 h-150 rounded-2xl
+        <div className="fixed bottom-20 right-4 z-50 
+                        w-[calc(100vw-2rem)] sm:w-96 
+                        h-[32rem] sm:h-[36rem]
+                        max-h-[calc(100vh-6rem)]
+                        rounded-2xl
                         border border-white/10 bg-black/40 backdrop-blur-xl
                         shadow-[0_0_40px_rgba(0,255,255,0.15)]
                         flex flex-col animate-in fade-in zoom-in duration-200">
