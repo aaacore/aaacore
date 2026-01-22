@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, Space_Grotesk } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import IntroLogo from "@/components/IntroLogo"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" })
@@ -82,6 +83,9 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
 
+        {/* Intro Logo Animation */}
+        <IntroLogo />
+
         {/* Organization Schema */}
         <script
           type="application/ld+json"
@@ -108,4 +112,3 @@ export default function RootLayout({
     </html>
   )
 }
-
