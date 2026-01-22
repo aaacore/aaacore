@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 const contactDetails = [
-  { icon: Phone, label: "Phone", value: "+91 7510740578", href: "tel:+917510740578" },
+  { icon: Phone, label: "Phone", value: "+91 9188711791", href: "tel:+919188711791" },
   { icon: MessageCircle, label: "WhatsApp", value: "+91 9188711791", href: "https://wa.me/919188711791" },
-  { icon: Globe, label: "Website", value: "aaacore.in", href: "https://aaacore.in" },
+  // { icon: Globe, label: "Website", value: "aaacore.in", href: "https://aaacore.in" },
   { icon: Mail, label: "Email", value: "aaacore.in@gmail.com", href: "mailto:aaacore.in@gmail.com" },
   { icon: MapPin, label: "Location", value: "Kannur, Kerala, India", href: "#" },
 ]
@@ -73,7 +73,7 @@ export function ContactSection() {
               <p className="text-sm text-muted-foreground mb-4">Follow us on social media</p>
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/in/aaa-core-it-solutions-b979b03a5"
+                  href="https://www.linkedin.com/company/aaacore/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 glass rounded-xl hover:border-primary/50 hover:bg-primary/10 hover:glow-primary transition-all duration-300"
@@ -121,7 +121,7 @@ export function ContactSection() {
                     className="w-full sm:w-auto bg-background/90 hover:bg-background text-foreground font-semibold rounded-xl hover:scale-105 transition-all duration-300"
                     asChild
                   >
-                    <a href="tel:+917510740578">
+                    <a href="tel:+919188711791">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </a>

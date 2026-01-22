@@ -94,8 +94,21 @@ export function HeroSection() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-auto text-base px-8 bg-transparent border-border hover:bg-primary/10 hover:border-primary/50 text-foreground rounded-xl backdrop-blur-sm transition-all duration-300"
-              onClick={() => scrollToSection("contact")}
+              className="
+                w-full sm:w-auto text-base px-8
+                bg-transparent
+                border-border
+                text-white hover:text-white
+                rounded-xl
+                backdrop-blur-sm
+
+                transition-transform transition-shadow duration-300 ease-out
+                hover:scale-105
+                hover:shadow-[0_0_20px_rgba(255,255,255,0.35)]
+
+                active:scale-95
+              "
+              onClick={() => scrollToSection('contact')}
             >
               Contact Us
             </Button>
