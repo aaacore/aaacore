@@ -99,10 +99,15 @@ export function Navbar() {
                 className="object-contain rounded-lg"
               />
             {/* </div> */}
-            <div className="hidden sm:block">
-              <span className="font-bold text-foreground text-lg tracking-tight">AAA Core</span>
-              <span className="text-muted-foreground text-sm block -mt-1">IT Solutions</span>
-            </div>
+<div className="block sm:block">
+  <span className="font-bold text-foreground text-base sm:text-lg tracking-tight">
+    AAA Core
+  </span>
+  <span className="text-muted-foreground text-xs sm:text-sm block -mt-1">
+    IT Solutions
+  </span>
+</div>
+
           </button>
 
           <div className="hidden lg:flex items-center gap-1">
