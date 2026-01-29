@@ -24,7 +24,7 @@ export function Footer() {
             {/* <div className="flex items-center justify-center w-100 h-50 bg-gradient-to-br from-primary to-accent rounded-xl group-hover:glow-primary transition-all duration-300"> */}
               {/* <span className="text-primary-foreground font-bold text-lg">A³</span> */}
               <Image
-                src="/logo_white_bag.jpeg"   // or .png – must be inside /public
+                src="/new_logo.jpeg"   // or .png – must be inside /public
                 alt="AAA Core IT Solutions Logo"
                 width={100}
                 height={60}

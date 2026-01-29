@@ -91,7 +91,8 @@ export function Navbar() {
                 A<sup className="text-[0.6em] font-bold">3</sup>
               </span> */}
               <Image
-                src="/logo_white_bag.jpeg"   // or .png – must be inside /public
+                // src="/new_logo.jpeg"   // or .png – must be inside /public
+                src= "/intro_logo.png"
                 alt="AAA Core IT Solutions Logo"
                 width={50}
                 height={60}

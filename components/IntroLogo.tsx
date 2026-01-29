@@ -44,7 +44,7 @@ export default function IntroLogo() {
             }}
           >
             <Image
-              src="/logo_transparent.png"
+              src="/intro_logo.png"
               alt="AAA Core Logo"
               width={500}
               height={500}
