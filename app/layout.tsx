@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | AAA Core IT Solutions",
   },
 
-  description:
+  description:   
     "AAA Core IT Solutions (AAACore) builds scalable web, mobile, cloud, and cybersecurity solutions. Based in Kannur, Kerala, India.",
 
   keywords: [
